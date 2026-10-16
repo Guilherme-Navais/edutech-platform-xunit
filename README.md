@@ -72,7 +72,7 @@ dotnet test
 
 O projeto `EduTechPlatform.Tests` utiliza testes orientados a dados (*Data-Driven Tests*) através das anotações **`[Theory]`** e **`[InlineData]`** do framework **xUnit**.
 
-Enquanto um teste tradicional com `[Fact]` valida apenas um cenário fixo, o atributo **`[Theory]`** transforma o método de teste numa especificação parametrizada. Cada atributo **`[InlineData(...)]`** injeta um conjunto diferente de valores de entrada e o respetivo resultado esperado diretamente nos parâmetros do método, garantindo cobertura total das regras de negócio sem repetição de código:
+Enquanto um teste tradicional com `[Fact]` valida apenas um cenário fixo, o atributo **`[Theory]`** torna o método de teste numa especificação parametrizada. Cada atributo **`[InlineData(...)]`** injeta um conjunto diferente de valores de entrada e o respetivo resultado esperado diretamente nos parâmetros do método, garantindo cobertura total das regras de negócio sem repetição de código:
 
 * **`NotaDesempenhoServiceTests`**: Valida o cálculo de médias ponderadas (`7.0` e `8.0`) e testa todas as faixas de decisão da situação académica (`"APROVADO"`, `"RECUPERACAO"` e `"REPROVADO"`).
 * **`FrequenciaServiceTests`**: Valida o cálculo exato do percentual de presença (`75.0%` e `90.0%`) e testa os valores limite de aprovação por frequência (`true` com `20` faltas em `80` aulas; `false` com `21` faltas em `80` aulas).
