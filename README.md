@@ -1,4 +1,4 @@
-# EduTechPlatform - Qualidade e Testes de Software com xUnit
+# EduTechPlatform - Qualidade e Testes de Software com xUnit 
 
 ## 📌 Visão Geral
 O **EduTechPlatform** é uma solução em .NET desenvolvida para centralizar e validar regras de negócio essenciais de uma plataforma educacional, abrangendo três domínios principais: **desempenho académico**, **controlo de frequência** e **gestão financeira de matrículas**.
