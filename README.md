@@ -78,6 +78,7 @@ Enquanto um teste tradicional com `[Fact]` valida apenas um cenário fixo, o atr
 * **`FrequenciaServiceTests`**: Valida o cálculo exato do percentual de presença (`75.0%` e `90.0%`) e testa os valores limite de aprovação por frequência (`true` com `20` faltas em `80` aulas; `false` com `21` faltas em `80` aulas).
 * **`MatriculaFinanceiraServiceTests`**: Verifica todas as regras de desconto na mensalidade (`50%` para bolseiro, `10%` até ao dia 5 e valor integral após o dia 5) e valida os cenários de permissão ou bloqueio de rematrícula consoante pendências financeiras e situação académica.
 
+xd
 ---
 
 ## 📄 Licença
